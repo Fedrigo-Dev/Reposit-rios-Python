@@ -1,5 +1,7 @@
-n1 = int(input("Digite um número:"))
-n2 = int(input("Digite outro número: "))
+# Exercício 16: Crie um programa que leia a raiz quadrada de um número.
 
-soma = n1 + n2
-print("A soma entre {} e {} é igual a {}".format(n1, n2, soma))
+import math
+num = float(input('Digite um número: '))
+print('O número {} tem a parte inteira {}'.format(num, math.trunc(num)))
+raiz = math.sqrt(num)
+print('A raiz quadrada de {} é igual a {:.2f}'.format(num, raiz))
