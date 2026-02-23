@@ -1,0 +1,6 @@
+print ("Olá, vamos converter esses dinheiros aí? ")
+print ("Quero que você digite o valor em reais que deseja converter. ")
+valor = float(input("Valor em reais: "))
+print ("Agora vamos converter os reais!")
+conversão = float(input("Digite a cotação atual da moeda que deseja converter: "))
+print ("O valor de R$", valor, "Corresponde a: ", abs(valor * conversão), "na moeda que você escolheu!")
