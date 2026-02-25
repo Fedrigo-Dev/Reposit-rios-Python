@@ -8,5 +8,6 @@ pygame.mixer.music.load("lifeletters.mp3")
 
 pygame.mixer.music.play()
 
+
 while pygame.mixer.music.get_busy():
     pygame.time.Clock().tick(10)
