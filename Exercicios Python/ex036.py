@@ -18,4 +18,4 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
     else:
         print("Pode formar um triângulo e é ISOCELES!")
 else:
-    printrint("Não pode formar um triângulo")
+    print("Não pode formar um triângulo")
